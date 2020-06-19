@@ -12,7 +12,7 @@ docker run --rm --name agent --env-file=.env hpda
 ```
 
 ## TODO
-[ ] Add GPU capabilities
+- [ ] Add GPU capabilities
 
 ## Credits
 Thanks to [hashtopolis-agent-python](https://github.com/s3inlc/hashtopolis-agent-python) by Sein Coray ([@s3inlc](https://github.com/s3inlc))
