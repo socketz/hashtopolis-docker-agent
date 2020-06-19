@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  hpda:
+    build:
+      context: .
+      shm_size: '2gb'
+      args:
+        - HP_SERVER_URL
+        - HP_VOUCHER
+    env_file: .env
